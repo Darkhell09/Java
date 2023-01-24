@@ -33,5 +33,11 @@ public class Main
     
     String names = "Dark";
     System.out.println(names.equals("Dark"));
+    
+    //meathod for ignoring case senistive errors in String
+    System.out.println(names.equalsIgnoreCase("dark"));
+    
+    //equalsIgnoreCase is not used giving false
+    System.out.println(names.equals("dark"));
   }
 }
