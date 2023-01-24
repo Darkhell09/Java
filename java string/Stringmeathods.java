@@ -25,5 +25,10 @@ public class Main
     
     
     System.out.println(six.endsWith("el"));
+    
+     System.out.println(six.charAt(3));
+    
+    String seven = "Hell";
+    System.out.println(seven.indexOf('H'));
   }
 }
