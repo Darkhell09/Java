@@ -30,5 +30,8 @@ public class Main
     
     String seven = "Hell";
     System.out.println(seven.indexOf('H'));
+    
+    String names = "Dark";
+    System.out.println(names.equals("Dark"));
   }
 }
