@@ -19,5 +19,11 @@ public class Main
 
     String five = "Sappy";
       System.out.println (five.replace ('S', 'H'));
+    
+    String six = "Mortel";
+    System.out.println(six.startsWith("Mor"));
+    
+    
+    System.out.println(six.endsWith("el"));
   }
 }
